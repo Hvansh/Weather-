@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #cce6ff;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  position: relative;
+  width: 350px;
+  padding: 2rem;
+}
+
+.weather-card {
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.location {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.weather-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin: 1rem 0;
+  color: #666;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+
+.day {
+  background: #e6f0ff;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.day.active {
+  background: #3399ff;
+  color: white;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.nav-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.nav-btn.active {
+  color: #3399ff;
+}
